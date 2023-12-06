@@ -6,6 +6,7 @@ import { Toaster } from "react-hot-toast";
 function App() {
   console.log("hi");
   console.log("hello");
+  console.log("hello 2");
   return (
     <div>
       <Toaster position="top-right" />
