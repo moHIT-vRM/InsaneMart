@@ -4,6 +4,7 @@ import { Outlet } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 
 function App() {
+  console.log("hi");
   return (
     <div>
       <Toaster position="top-right" />
