@@ -2,10 +2,11 @@ import "./App.css";
 import Header from "./component/Header";
 import { Outlet } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
-import { Store } from "redux";
-import { Provider } from "react-redux";
 
 function App() {
+  console.log("hi");
+  console.log("hello");
+  console.log("hello 2");
   return (
     <div>
       <Toaster position="top-right" />

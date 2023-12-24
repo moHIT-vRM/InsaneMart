@@ -28,6 +28,7 @@ const SignUp = () => {
     setConfirmPassword((prevValue) => !prevValue);
   }, []);
 
+  console.log("HI")
   const handleUploadProfileImage = useCallback(async (e) => {
     // console.log("dsfsddf", e.target.files[0]);
     const data = await ImageToBase64(e.target.files[0]);
